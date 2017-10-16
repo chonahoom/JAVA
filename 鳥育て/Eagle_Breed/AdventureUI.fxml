@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="491.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../adventureBackground.png" />
+         </image>
+      </ImageView>
+      <Button id="Leftbtn" fx:id="btnPussRight" layoutY="433.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="83.0" text="N">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <Button id="Rightbtn" fx:id="btnPussLeft" layoutX="211.0" layoutY="433.0" mnemonicParsing="false" prefHeight="58.0" prefWidth="83.0" text="M">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Button>
+      <ImageView id="Bird_Img" fitHeight="97.0" fitWidth="102.0" layoutX="95.0" layoutY="394.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim0" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim1" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim2" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim3" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim4" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim5" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim6" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim7" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="laim8" fitHeight="48.0" fitWidth="48.0" layoutX="18.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim8" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim7" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim6" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="96.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim5" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="144.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim4" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="192.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim3" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="240.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim2" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="288.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim1" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="336.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView id="raim0" fitHeight="48.0" fitWidth="48.0" layoutX="232.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true" />
+      <ProgressBar id="timeLimitBar" layoutX="93.0" layoutY="110.0" prefHeight="18.0" prefWidth="112.0" progress="0.0" />
+      <Button id="ad_back" contentDisplay="CENTER" layoutX="120.0" layoutY="24.0" mnemonicParsing="false" text="&lt;back" textAlignment="CENTER" />
+      <Label id="ad_Score" alignment="CENTER" layoutX="107.0" layoutY="65.0" prefHeight="23.0" prefWidth="83.0" text="GameStart!!" textAlignment="CENTER" />
+      <Label alignment="CENTER" layoutX="120.0" layoutY="234.0" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: rgba(0,124,149,0.7);" text="COMBO" textAlignment="CENTER" textFill="WHITE" />
+      <Label id="combo_Label" alignment="CENTER" layoutX="120.0" layoutY="249.0" prefHeight="15.0" prefWidth="61.0" style="-fx-background-color: rgba(0,124,149,0.7);" text="0" textAlignment="CENTER" textFill="WHITE" />
+   </children>
+</Pane>

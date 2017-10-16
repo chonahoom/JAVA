@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="491.0" prefWidth="294.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Eagle_Breed.LevelUpController">
+   <bottom>
+      <AnchorPane>
+         <children>
+            <Button fx:id="btnlevelup" layoutX="35.0" layoutY="-20.0" mnemonicParsing="false" prefHeight="86.0" prefWidth="225.0" text="Level UP!" />
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane>
+         <children>
+            <GridPane layoutX="55.0" layoutY="88.0" prefHeight="273.0" prefWidth="185.0" BorderPane.alignment="CENTER">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="217.0" minHeight="10.0" prefHeight="217.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="131.0" minHeight="10.0" prefHeight="56.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView id="Bird_Img" fitHeight="217.0" fitWidth="185.0" pickOnBounds="true" />
+                  <Label id="levelup_level" alignment="CENTER" prefHeight="63.0" prefWidth="189.0" text="Level" textAlignment="CENTER" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="69.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+            <Button fx:id="btnLevelBack" layoutX="219.0" layoutY="21.0" mnemonicParsing="false" text="&lt; Back" />
+            <Label id="levelup_money" layoutX="54.0" layoutY="20.0" prefHeight="25.0" prefWidth="102.0" style="-fx-background-color: skyblue;" text="0">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label id="levelup_persent" layoutX="170.0" layoutY="369.0" prefHeight="25.0" prefWidth="40.0" style="-fx-background-color: pink;" text="99">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="71.0" layoutY="369.0" style="-fx-background-color: pink;" text="진화확률 : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="369.0" style="-fx-background-color: pink;" text="\%">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="22.0" layoutY="20.0" style="-fx-background-color: skyblue;" text="\$ : ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="23.0" layoutY="54.0" style="-fx-background-color: skyblue;" text="Need $ :">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label id="levelupPrice_Lable" layoutX="89.0" layoutY="54.0" style="-fx-background-color: skyblue;" text="200">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
